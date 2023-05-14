@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Update package lists
-sudo apt-get update
+sudo apt update
 
 # Installing packages - May take some time, better make a coffee
-sudo apt-get install -y git nmap ffmpeg python-pip python3-pip python3.7 xvfb kazam keepassxc mediainfo-gui webhttrack libimage-exiftool-perl default-jre curl wget zsh
+sudo apt install -y git nmap ffmpeg python-pip python3-pip python3.7 xvfb kazam keepassxc mediainfo-gui webhttrack libimage-exiftool-perl default-jre curl wget zsh
 
 # Upgrading pip
 pip install --upgrade pip
