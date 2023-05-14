@@ -56,3 +56,8 @@ git clone https://github.com/lanmaster53/recon-ng.git /home/brahmastra/Downloads
 git clone https://github.com/xillwillx/skiptracer.git /home/brahmastra/Downloads/Astra/skiptracer
 git clone https://github.com/sherlock-project/sherlock.git /home/brahmastra/Downloads/Astra/sherlock
 git clone https://github.com/AmIJesse/Elasticsearch-Crawler.git /home/brahmastra/Downloads/Astra/Elasticsearch-Crawler
+
+# PhoneInfoga
+curl -sSL https://raw.githubusercontent.com/sundowndev/phoneinfoga/master/support/scripts/install | bash
+sudo mv ./phoneinfoga /usr/bin/phoneinfoga
+clear
