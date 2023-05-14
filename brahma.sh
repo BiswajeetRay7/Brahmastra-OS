@@ -8,6 +8,34 @@ sudo apt install -y git nmap ffmpeg python-pip python3-pip python3.7 xvfb kazam 
 
 # Upgrading pip
 pip install --upgrade pip
+pip3 install --upgrade virtualenv
+pip3 install --upgrade tweepy 
+pip3 install --upgrade youtube-dl
+pip3 install --upgrade requests
+pip3 install --upgrade fake_useragent
+pip3 install --upgrade dnsdumpster
+pip3 install --upgrade simplejson
+pip3 install --upgrade cfscrape
+pip3 install --upgrade python-docx
+pip3 install --upgrade urllib3
+pip3 install --upgrade bs4
+pip3 install --upgrade lxml
+pip3 install --upgrade ipdb
+pip3 install --upgrade click
+pip3 install --upgrade numpy
+pip3 install --upgrade tqdm
+pip3 install --upgrade shodan
+pip3 install --upgrade googletransx
+pip3 install --upgrade schedule
+pip3 install --upgrade aiohttp
+pip3 install --upgrade aiohttp_socks
+pip3 install --upgrade cchardet
+pip3 install --upgrade elasticsearch
+pip3 install --upgrade geopy
+pip3 install --upgrade h8mail
+pip3 install --upgrade shodan
+pip3 install --upgrade instaloader
+
 
 # Installs additional pip tools
 pip install -U nested-lookup internetarchive instalooter youtube-dl argparse beautifulsoup4 bs4 certifi cfscrape click colorama dicttoxml dnspython flasgger flask flask-restful ipdb lxml mechanize numpy pprint PySocks python-docx pyyaml requests[socks] requests requests-futures rq simplejson soupsieve stem tld torrequest unicodecsv urllib3 XlsxWriter tqdm
